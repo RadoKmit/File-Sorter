@@ -2,7 +2,7 @@ import os
 import inputOptions as iOpt
 import selectionMenu as sm
 
-program_loc = "C:\Code\PY\Projects\FileSorter"
+program_loc = "specify path to program"
 
 def listConfigFiles():
     files = os.listdir(program_loc + "\\config\\")
